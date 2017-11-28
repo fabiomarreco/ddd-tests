@@ -1,3 +1,6 @@
+using System;
+namespace SepareteClasses.Naive
+{
 
 public class Car
 {
@@ -39,4 +42,20 @@ public class Tire
     public DateTime PurchaseDate { get; set; }
     public string ID { get; set; }
     public void AddMilage(double milage) => Milage += milage;
+}
+
+
+public class SomeService
+{
+    public void Execute()
+    {
+        Car car = new Car();
+
+        car.AddMilage(200); // Adds Milage to all tires, 
+
+        car.FrontLefTire.AddMilage(200); //corrupt access to front tire, change milage of single tire on car violating business rules
+
+    }
+}
+
 }

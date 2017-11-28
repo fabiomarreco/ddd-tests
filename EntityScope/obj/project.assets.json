@@ -30,7 +30,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "zRmQE35OHFlVpLamSha09rlu2kpyeg1ltCw2esrrbOMhrfAY3JuZNFrw//oC7LrZnIKprYbkHSdYHPq5+MuCyA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -177,28 +177,33 @@
     ]
   },
   "packageFolders": {
-    "/home/marreco/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\fabio.marreco\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/marreco/devel/EntityScope/EntityScope/EntityScope.csproj",
+      "projectUniqueName": "C:\\projetos\\github\\ddd-tests\\EntityScope\\EntityScope.csproj",
       "projectName": "EntityScope",
-      "projectPath": "/home/marreco/devel/EntityScope/EntityScope/EntityScope.csproj",
-      "packagesPath": "/home/marreco/.nuget/packages/",
-      "outputPath": "/home/marreco/devel/EntityScope/EntityScope/obj/",
+      "projectPath": "C:\\projetos\\github\\ddd-tests\\EntityScope\\EntityScope.csproj",
+      "packagesPath": "C:\\Users\\fabio.marreco\\.nuget\\packages\\",
+      "outputPath": "C:\\projetos\\github\\ddd-tests\\EntityScope\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/marreco/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\fabio.marreco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

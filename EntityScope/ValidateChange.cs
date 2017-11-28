@@ -1,5 +1,5 @@
 using System;
-namespace SepareteClasses
+namespace SepareteClasses.ValidateChange
 {
 
 public class Car
@@ -30,9 +30,6 @@ public class Car
         RearLeftTire = oldFrontRightTire;
         FrontLefTire = oldRearLeftTire;
     }
-
-
-
 }
 
 
@@ -41,7 +38,12 @@ public class Tire
     public double Milage { get; private set;  }
     public DateTime PurchaseDate { get; set; }
     public string ID { get; set; }
-    public void AddMilage(double milage) => Milage += milage;
+    public void AddMilage(double milage)
+    {
+        if (!ValidateChange?.Invoke ?? true)
+            Milage += milage;  
+    } 
+    public event bool ValidateChange;
 }
 
 
@@ -49,7 +51,7 @@ public class SomeService
 {
     public void Execute()
     {
-        Car car;
+        Car car = new Car();
 
         car.AddMilage(200); // Adds Milage to all tires, 
 

@@ -1,0 +1,9 @@
+C:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.csproj.CoreCompileInputs.cache
+C:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.AssemblyInfoInputs.cache
+C:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.AssemblyInfo.cs
+c:\projetos\github\ddd-tests\EntityScope\bin\Debug\netstandard2.0\EntityScope.deps.json
+c:\projetos\github\ddd-tests\EntityScope\bin\Debug\netstandard2.0\EntityScope.dll
+c:\projetos\github\ddd-tests\EntityScope\bin\Debug\netstandard2.0\EntityScope.pdb
+c:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.dll
+c:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.pdb
+C:\projetos\github\ddd-tests\EntityScope\obj\Debug\netstandard2.0\EntityScope.csprojResolveAssemblyReference.cache
