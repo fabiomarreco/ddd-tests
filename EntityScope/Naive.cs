@@ -9,7 +9,6 @@ public class Car
     public Tire RearLeftTire { get; private set; }
     public Tire RearRightTire { get; private set; }
 
-
     public void AddMilage (double milage)
     {
         FrontLefTire.AddMilage(milage);
@@ -30,9 +29,6 @@ public class Car
         RearLeftTire = oldFrontRightTire;
         FrontLefTire = oldRearLeftTire;
     }
-
-
-
 }
 
 
